@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual env
+venv/
+.env
+
+# IDEs
+.idea/
+
+# OS
+.DS_Store
+
+# Docker
+*.log
+*.pid
+*.sock
+
+# Migrations (если не нужно коммитить)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Static
+staticfiles/
+media/
+
+# Ignore coverage and testing
+htmlcov/
+.coverage
+.tox/
+pytest_cache/
